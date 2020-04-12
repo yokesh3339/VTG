@@ -1,0 +1,12 @@
+id,place,weather,time,status,coordinates,latitude,longitude
+1,"marina beach,chennai,tamil nadu",low,5.00 PM,True,"Marina Beach, Chepauk, Chennai, Tamil Nadu",13.060880000000054,80.28330000000005
+2,"kodaikanal,dindigul,tamil nadu",low,6.00 AM,True,"Kodaikanal, Dindigul, Tamil Nadu",10.23162000000002,77.48807000000005
+3,"mahabalipuram,tamil nadu",low,5.30 PM,True,"Mahabalipuram, Kancheepuram, Tamil Nadu",12.627770000000055,80.19415000000004
+4,"Thiruvalluar statue,kanniyakumari,tamil nadu",low,6.00 AM,True,Thiruvalluvar Statue,8.077800000000025,77.55389000000008
+5,"bragatheeswarar temple,tanjavur,tamil nadu",high,6.00 AM,True,Bragatheeswarar,10.780850000000044,79.13416000000007
+6,"meenakshi amman temple,madurai,tamil nadu",low,6.00 AM to 6.00 PM,True,Meenakshi Amman Temple,9.942290000000071,78.08582000000007
+7,"arulmigu arunachaliswar temple,tiruvannamalai,tamil nadu",low,6.00 AM to 6.00 PM,True,Arunachala Iswar Temple,12.231100000000026,79.06978000000004
+8,"Udhagamandalam,coimbatore,tamil nadu",high,6.00 AM ,True,"Ooty, Mettupalayam, Coimbatore, Tamil Nadu",11.320350000000076,76.91880000000003
+9,"Sri Lakshmi Narayani Golden Temple,vellore,tamil nadu",low,6.00 PM to 10.00 PM,True,Sri Lakshminarayana Swamy Temple,12.847210000000075,79.13633000000004
+10,"Kamakshi Amman,kanchipuram,tamil nadu",low,6.00 AM to 6.00 PM,True,Kanchipuram Kamakshi Amman Silk Co-op Society,12.825830000000053,79.70858000000004
+11,"hogenakkal,tamil nadu",low,6.00 AM to 6.00 PM,True,Hogenakkal Falls,12.121800000000064,77.77807000000007

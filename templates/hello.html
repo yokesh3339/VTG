@@ -1,0 +1,36 @@
+<html>
+    
+{% block content %}
+
+    <head>
+        <style>
+        #form
+        {
+            background-color: rgb(135, 216, 222);
+        }
+        </style>
+    </head>
+<body bgcolor="blue">
+</head>
+
+
+<center>
+<form id="form" action="location" method='POST'>
+    {% csrf_token %}
+    <table cellpadding=1 cellspacing=2 >
+<tr>
+   <td>Enter the location:</td> 
+   <td><input type="text" name="loc1"></td>
+</tr>
+    <tr><td>Enter the Destination:</td>
+    <td><input type="text" name="loc2"></td>
+</tr>
+    <td><input type="Submit"></td>
+    <td><input type="Reset" value="reset"></td>
+</td>
+    </table>
+</form>
+</center>
+</body>
+{% endblock %}
+</html>
