@@ -25,7 +25,7 @@ SECRET_KEY = '#2plx^rh%ld!2cnz#mwd#d9=jr4fxga+uz71n11_7fiqxa_mgo'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [vtg2.herokuapp.com]
+ALLOWED_HOSTS = ['vtg2.herokuapp.com']
 
 
 # Application definition
@@ -72,13 +72,15 @@ WSGI_APPLICATION = 'map.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+
+
 
 
 # Password validation
