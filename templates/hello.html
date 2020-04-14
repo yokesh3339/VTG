@@ -9,13 +9,23 @@
             background-color: rgb(135, 216, 222);
         }
         </style>
+        <script>
+            function validateForm() {
+                var x = document.forms["myForm"]["loc1"].value;
+                var y = document.forms["myForm"]["loc2"].value;
+                if (x == ""||y=="") {
+                  alert("locations must be filled out");
+                  return false;
+                }
+              }
+        </script>
     </head>
 <body bgcolor="blue">
 </head>
 
 
 <center>
-<form id="form" action="location" method='POST'>
+<form id="form" name="myForm" action="location" onsubmit="return validateForm()" method='POST'>
     {% csrf_token %}
     <table cellpadding=1 cellspacing=2 >
 <tr>
