@@ -58,10 +58,10 @@ def location(request):
                e.append(lis[0])
                e.append((m.latitude,m.longitude))
                for i in range(1,len(data["latitude"])+1):
+                   
                     ht="""<html>
-                    <div>TIME:%s STATUS:%s</div>
-                    </html>
-                    """ % (data["time"][i],data['status'][i])
+                    <img src="stat/img/%i.JPG" alt="">TIME:%s STATUS:%s</img>
+                    </html>""" % (i,data["time"][i],data['status'][i])
                     fg.add_child(folium.Marker(location=[data["latitude"][i],data["longitude"][i]],popup=folium.Popup(ht),icon=folium.Icon(color=weathers(data["weather"][i]))))
                     fg.add_child(folium.Marker(location=[n.latitude,n.longitude],popup="CURRENT LOCATION",icon=folium.Icon(color='black')))
                     fg.add_child(folium.Marker(location=[m.latitude,m.longitude],popup="DESTINATION LOCATION",icon=folium.Icon(color='black')))
