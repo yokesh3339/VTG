@@ -29,7 +29,7 @@ def location(request):
                          points.append(tuple([data["latitude"][point],data["longitude"][point]]))
                points.insert(0,(n.latitude,n.longitude))
 
-
+               #Algorithm to find nearest location 
                app=[]
                wo=[]
                ww=[]
